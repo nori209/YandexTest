@@ -6,7 +6,7 @@ import static com.codeborne.selenide.Selenide.open;
 public class WarningTest {
 
     @Test
-    public void  warningTest(){
+    public void warningTest(){
         OrderPage orderPage = new OrderPage();
         open("https://qa-scooter.praktikum-services.ru/order/");
 
